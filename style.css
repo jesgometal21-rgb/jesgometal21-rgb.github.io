@@ -52,13 +52,11 @@ nav {
     text-align: center;
 }
 
-.perfil-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 25px;
-    background: var(--gris-fondo);
+.foto-perfil {
+    width: 200px !important; /* El !important obliga a GitHub a hacernos caso */
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 .hero h1 {
@@ -253,3 +251,4 @@ foto-perfil {
     display: block;
     margin: 0 auto 20px;   /* La centra y le da espacio abajo */
 }
+
