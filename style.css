@@ -241,4 +241,15 @@ nav {
     .galeria {
         grid-template-columns: 1fr; /* Una sola columna de fotos en cel */
     }
+
+}
+foto-perfil {
+    width: 180px;          /* Ajusta este número para cambiar el tamaño */
+    height: 180px;         /* Debe ser igual al ancho para que sea un círculo perfecto */
+    border-radius: 50%;    /* Esto la hace redonda */
+    object-fit: cover;     /* Evita que la foto se vea estirada o aplastada */
+    border: 4px solid #fff; /* Un borde blanco para que resalte */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Una sombra suave para dar profundidad */
+    display: block;
+    margin: 0 auto 20px;   /* La centra y le da espacio abajo */
 }
