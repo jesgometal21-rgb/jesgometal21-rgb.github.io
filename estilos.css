@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Hola profe, a esto me refería en mi presentación con que los colores estaban sujetos a cambios, estuve intentando con muchos pero me gustó más con estos, utilicé root para aplicarle los colores a todo y ya.*/
+
 :root {
     --blanco: #ffffff;
     --negro-profundo: #020605; 
@@ -118,12 +118,15 @@ nav {
     cursor: pointer;
     background: var(--gris-fondo);
     border: 1px solid rgba(0, 250, 154, 0.05);
+    min-height: 220px;
 }
 
 .foto-card img {
     width: 100%;
+    height: auto;
     display: block;
-    transition: var(--transicion);
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform;
 }
 
 .foto-card:hover img {
