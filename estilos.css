@@ -308,12 +308,12 @@ footer {
 
 @media (max-width: 768px) {
     .galeria {
-        columns: 2;
-        column-gap: 12px;
+        columns: 2 0;
+        column-gap: 10px;
         padding: 0 4% 80px;
     }
     .foto-card {
-        margin-bottom: 12px;
+        margin-bottom: 10px;
         border-radius: 8px;
     }
     nav { width: 100%; padding: 20px 8%; }
